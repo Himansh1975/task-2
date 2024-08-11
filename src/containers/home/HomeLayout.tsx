@@ -43,12 +43,12 @@ const HomeLayout = () => {
         <Tabs
           isLazy
           index={activeTab}
-          onChange={() => {}}
+          onChange={() => { }}
         >
           <TabList>
-            <CustomTab isDisabled={activeTab !== 0}>Requisition Details</CustomTab>
-            <CustomTab isDisabled={activeTab !== 1}>Job Details</CustomTab>
-            <CustomTab isDisabled={activeTab !== 2}>Interview Settings</CustomTab>
+            <CustomTab>Requisition Details</CustomTab>
+            <CustomTab>Job Details</CustomTab>
+            <CustomTab>Interview Settings</CustomTab>
           </TabList>
           <Grid display="grid" gridTemplateColumns="3fr 2fr" gap="24px">
             <TabPanels>
